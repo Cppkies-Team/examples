@@ -5,7 +5,7 @@ import typescript from "rollup-plugin-typescript2"
 import resolve from "@rollup/plugin-node-resolve"
 import commonjs from "@rollup/plugin-commonjs"
 //import banner from "rollup-plugin-banner"
-const folders = ["building"]
+const folders = ["ThinkTank"]
 const configs = []
 folders.forEach(val => {
 	configs.push({
