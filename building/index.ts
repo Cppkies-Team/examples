@@ -16,7 +16,7 @@ Cppkies.onLoad.push(() => {
 		},
 		Cppkies.DEFAULT_CPS,
 		Cppkies.DEFAULT_ONBUY,
-		{ name: "Brain", desc: "Brain", icon: [1, 0] },
+		{ name: "Brain", desc: "Bruh", icon: [1, 0] },
 		["Brainstorm", "Brain fart"]
 	)
 	//TODO: Add upgrades, achievements
