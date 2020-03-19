@@ -1,0 +1,35 @@
+{
+	"name": "cppkies-examples",
+	"version": "1.0.0",
+	"description": "The repository for showing the possibilities of Cppkies!",
+	"private": true,
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Cppkies-Team/examples.git"
+	},
+	"keywords": [
+		"cppkies"
+	],
+	"author": "Cppkies Team",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Cppkies-Team/examples/issues"
+	},
+	"homepage": "https://github.com/Cppkies-Team/examples#readme",
+	"devDependencies": {
+		"@rollup/plugin-commonjs": "^11.0.2",
+		"@rollup/plugin-node-resolve": "^7.1.1",
+		"rollup": "^2.1.0",
+		"rollup-plugin-analyzer": "^3.2.2",
+		"rollup-plugin-babel": "^4.3.3",
+		"rollup-plugin-babel-minify": "^9.1.1",
+		"rollup-plugin-typescript2": "^0.25.3",
+		"typescript": "^3.7.5"
+	},
+	"dependencies": {
+		"cppkies": "^0.1.2"
+	}
+}
