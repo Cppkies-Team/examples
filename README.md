@@ -9,5 +9,5 @@ Want to try out our examples? Here's how.
 #### Think Tank :
 This addon provides an example on how to create a new building new upgrades and new achievements. Sprites by "Bt Y#0895".
 ```js
-javascript:( function () { Game.LoadMod('https://rawcdn.githack.com/Cppkies-Team/examples/78a1239508442ce86fd4df0257d87e74607c5d2b/dist/ThinkTank.js'); }() );
+javascript:Game.LoadMod("https://rawcdn.githack.com/Cppkies-Team/examples/ed3368d5c9465102f8737ff9e31a9dd4b629e4f1/dist/ThinkTank.js");
 ```
