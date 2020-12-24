@@ -5,31 +5,31 @@ import typescript from "rollup-plugin-typescript2"
 import resolve from "@rollup/plugin-node-resolve"
 import commonjs from "@rollup/plugin-commonjs"
 //import banner from "rollup-plugin-banner"
-const folders = ["ThinkTank"]
+const folders = ["ThinkTank", "SaffronyxTier"]
 const configs = []
 folders.forEach(val => {
 	configs.push({
 		input: `./${val}/index.ts`,
 		output: {
 			file: `./dist/${val}.js`,
-			format: "umd"
+			format: "umd",
 		},
 		plugins: [
 			typescript({
-				tsconfig: "./tsconfig.json"
+				tsconfig: "./tsconfig.json",
 			}),
 			resolve(),
 			babel({
-				exclude: "node_modules/**"
+				exclude: "node_modules/**",
 			}),
 			analyze({
-				summaryOnly: true
+				summaryOnly: true,
 			}),
 			minify({
-				comments: false
+				comments: false,
 			}),
-			commonjs()
-		]
+			commonjs(),
+		],
 	})
 })
 export default configs

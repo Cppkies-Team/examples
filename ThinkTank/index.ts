@@ -40,7 +40,7 @@ Cppkies.onLoad.push(async () => {
 		"Elder brains",
 		"A skinless grandma to envision more cookies.",
 		"Think tank",
-		`${prefix}/buildingGrandma`
+		`${prefix}/buildingGrandma.png`
 	)
 	const upgrades = [
 		{
@@ -154,4 +154,21 @@ Cppkies.onLoad.push(async () => {
 		3
 	)
 	new Cppkies.Level10Achievement("It’s Big Brain Time", "Think tank")
+
+	new Cppkies.DragonAura(
+		"Dragon intelligence",
+		"Research is <b>2</b> times faster.",
+		"Think tank"
+	)
+	new Cppkies.DragonAuraLevel(
+		"Dragon intelligence",
+		"Research is 2 times faster.",
+		"Think tank"
+	)
+	Game.SetResearch = Cppkies.injectCode(
+		Game.SetResearch,
+		"Game.nextResearch=Game.Upgrades[what].id;",
+		'Game.researchT /= Game.auraMult("Dragon intelligence") + 1;\n',
+		"before"
+	)
 })
