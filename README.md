@@ -12,7 +12,7 @@ This mod provides an example on how to create a new building with upgrades, achi
 
 ```js
 javascript: Game.LoadMod(
-	"https://rawcdn.githack.com/Cppkies-Team/examples/5656c0f3d7ab4380c537049e762b46e220ff8a47/dist/ThinkTank.js"
+	"https://rawcdn.githack.com/Cppkies-Team/examples/a0ebd13fa3335000be9a7c6760f848ca344dd97b/dist/ThinkTank.js"
 )
 ```
 
@@ -22,6 +22,6 @@ This mod provides an example on how to create a new tier with upgrades, achievem
 
 ```js
 javascript: Game.LoadMod(
-	"https://rawcdn.githack.com/Cppkies-Team/examples/5656c0f3d7ab4380c537049e762b46e220ff8a47/dist/SaffronyxTier.js"
+	"https://rawcdn.githack.com/Cppkies-Team/examples/a0ebd13fa3335000be9a7c6760f848ca344dd97b/dist/SaffronyxTier.js"
 )
 ```
