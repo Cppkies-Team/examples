@@ -30,6 +30,6 @@
 		"typescript": "^3.7.5"
 	},
 	"dependencies": {
-		"cppkies": "^0.2.0-alpha.3"
+		"cppkies": "^0.2.0"
 	}
 }
